@@ -1,0 +1,187 @@
+body {
+	padding: 50px;
+}
+
+div {
+	display: block;
+	height: 150px;
+	width: 400px;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.menu {
+	border-radius: 20px 20px 20px 20px;
+	background: #5282E1;
+}
+
+div button {
+	font-family: 'Jura', sans-serif;
+	font-size: 1.3em;
+	padding: 1.2em;
+	background-color: #5282E1;
+	color: #F7F7F7;
+	border: none;
+}
+
+div button:hover {
+	background-color: #F7F7F7;
+	color: #222;
+	border-radius: 20px 20px 20px 20px;
+	cursor: pointer;
+}
+
+.image {
+	max-width: 300px;
+	text-align: center;
+	padding: 15px;
+}
+
+.container {
+	width: 100%;
+	height: 70%;
+	margin: auto;
+}
+
+.test1, .test2 {
+	height: 100%;
+  width: 100%;
+  margin: auto auto;
+  padding: 0;
+  font-size: 17px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+	font-style: italic;
+}
+
+.col {
+	width: 45%;
+	float: left;
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 70%;
+	float: left;
+}
+
+.test1 {
+	display: none;
+}
+
+.test2 {
+	display: none;
+}
+
+.about {
+	background-color: #E7B928;
+	float: right;
+}
+
+.contacto {
+	background: #EFA62E;
+	float: right;
+}
+
+.perfiles {
+	background: #EF832E;
+	float: left;
+}
+
+.blog {
+	background: #EF712E;
+	float: left;
+}
+
+#back {
+	margin: 20px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #EF572E;
+}
+
+#back:hover {
+	background-color: #EF852E;
+}
+
+#left {
+	padding: 106px;
+	margin: 0 0 0 0px;
+	float: left;
+	background-color: #9CD7E8;
+}
+
+#right {
+	padding: 106px;
+	margin: 0 0 0 0px;
+	background-color: #9FCBEE;
+	float: right;
+}
+
+.hombre {
+	max-width: 45%;
+}
+
+.mujer {
+	max-width: 45%;
+}
+
+.info {
+	font-family: 'Jura', sans-serif;
+	font-size: 0.9em;
+	padding: 0.3em;
+	border-radius: 20px 20px 20px 20px;
+	color: #F7F7F7;
+	border: none;
+}
+
+#hombre {
+	background-color: #9CD7E8;
+}
+
+#mujer {
+	background-color: #9FCBEE;
+}
+
+#hombre:hover {
+	background-color: #9FCBEE;
+}
+
+#mujer:hover {
+	background-color: #9CD7E8;
+}
+
+#back2 {
+	margin: 10px;
+	background-color: #77B5EC;
+}
+
+#back2:hover {
+	background-color: #BFCEF8;
+}
+
+#back {
+	margin: 10px;
+	background-color: #F3913A;
+}
+
+#back:hover {
+	background-color: #F1C282;
+}
+
+.text {
+	margin: 20px;
+	font-weight: normal;
+	left: inherit;
+}
+
+#text1, #text2 {
+	display: none;
+}
+
+#about, #perfiles, #blog, #contacto {
+	display: none;
+}
